@@ -1,4 +1,4 @@
-\# Calculator Baze Numerice
+# Calculator Baze Numerice
 
 
 
@@ -10,37 +10,37 @@ The project was meant as a practical exercise in event-driven GUI programming.
 
 
 
-\## Preparation
+## Preparation
 
 
 
-\* Install Visual Studio (with the .NET desktop development workload)
+* Install Visual Studio (with the .NET desktop development workload)
 
-\* Clone the repository and open the `.sln` file
-
-
-
-\## Features (current)
+* Clone the repository and open the `.sln` file
 
 
 
-\* Three number bases, selected with radio buttons: `baza 10`, `baza 2`, `baza 16`
-
-\* Live conversion of the displayed value when the base changes
-
-\* Dynamic keypad that only shows valid digits:
-
-&#x20; \* Base 2: `0` and `1`
-
-&#x20; \* Base 10: `0-9`
-
-&#x20; \* Base 16: `0-9` and `A-F`
-
-\* `Delete` (removes the last character) and `Clear` (resets the display to `0`)
+## Features (current)
 
 
 
-\## How it works
+* Three number bases, selected with radio buttons: `baza 10`, `baza 2`, `baza 16`
+
+* Live conversion of the displayed value when the base changes
+
+* Dynamic keypad that only shows valid digits:
+
+* Base 2: `0` and `1`
+
+* Base 10: `0-9`
+
+* Base 16: `0-9` and `A-F`
+
+* `Delete` (removes the last character) and `Clear` (resets the display to `0`)
+
+
+
+## How it works
 
 
 
@@ -56,19 +56,19 @@ The display (`ResultBox`) is a text box that holds the number currently being ty
 
 
 
-\## Requirements
+## Requirements
 
 
 
-\* Windows
+* Windows
 
-\* Visual Studio 2022 (or any IDE that can build Windows Forms projects)
+* Visual Studio 2022 (or any IDE that can build Windows Forms projects)
 
-\* No external dependencies (only `System` and `System.Windows.Forms`)
+* No external dependencies (only `System` and `System.Windows.Forms`)
 
 
 
-\## Usage
+## Usage
 
 
 
@@ -82,33 +82,33 @@ The display (`ResultBox`) is a text box that holds the number currently being ty
 
 
 
-\## What I learned
+## What I learned
 
 
 
-\* Building a Windows Forms GUI and handling events (`Button.Click`, `RadioButton.CheckedChanged`)
+* Building a Windows Forms GUI and handling events (`Button.Click`, `RadioButton.CheckedChanged`)
 
-\* Creating controls dynamically at runtime.
+* Creating controls dynamically at runtime.
 
-\* Implementing base conversions manually \* Debugging a GUI application in Visual Studio
-
-
-
-\## What I would improve
+* Implementing base conversions manually \* Debugging a GUI application in Visual Studio
 
 
 
-\* A lot of duplicated code regarding handlers.
-
-\* `unit.baza\_curenta` is never initialised to `10`, so the first base switch takes the wrong branch.
-
-\* Deleting on a one-character or empty field throws an error.
-
-\* Adding colour to the GUI.
+## What I would improve
 
 
 
-\## License
+* A lot of duplicated code regarding handlers.
+
+* `unit.baza\_curenta` is never initialised to `10`, so the first base switch takes the wrong branch.
+
+* Deleting on a one-character or empty field throws an error.
+
+* Adding colour to the GUI.
+
+
+
+## License
 
 
 
